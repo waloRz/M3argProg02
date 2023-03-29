@@ -1,0 +1,15 @@
+.redes a{
+    color: #fff;
+    float: right;
+    margin-top: -30px;
+    border-radius: 100%;
+    width: 50px;
+    line-height: 42px;    
+    font-size: 40px;
+    transition: 0.3s;
+  }
+  
+  .redes a:hover {
+    background-color: #784799;
+    border-radius: 0%;
+  }
