@@ -4,7 +4,11 @@
 }
 
 div{
-    background-color:  #cdc2d4;
+    background-color: azure;
+}
+
+h1{
+    text-align: center;        
 }
 
 h2, h3{
