@@ -5,7 +5,6 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './componentes/header/header.component';
 import { LogoHComponent } from './componentes/logo-h/logo-h.component';
-import { SocialComponent } from './componentes/social/social.component';
 import { BannerComponent } from './componentes/banner/banner.component';
 import { AcerdaDeComponent } from './componentes/acerda-de/acerda-de.component';
 import { ExperienciaComponent } from './componentes/experiencia/experiencia.component';
@@ -19,8 +18,7 @@ import { FooterComponent } from './componentes/footer/footer.component';
   declarations: [
     AppComponent,
     HeaderComponent,
-    LogoHComponent,
-    SocialComponent,
+    LogoHComponent,    
     BannerComponent,
     AcerdaDeComponent,
     ExperienciaComponent,
