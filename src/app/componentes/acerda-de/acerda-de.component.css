@@ -1,20 +1,28 @@
-.row{
-    padding: 20px;
+.row {
+  padding-top: 6%;
+  margin: 0 20px;
+  position: relative;
 }
 
-div{
-    background-color: azure;
-    text-align: center;
+div {
+  background-color: azure;
+  text-align: center;
+}
+
+.c-fotonom {
+  position: absolute;
+  border-radius: 50%;
+  width: 20%;
+  top: -14vmax;
+  left: 7%;
 }
 
 /*etiqueta id*/
 
-#nombre{
-    font-weight:bold ;
-    margin-top: 5%;  
+#nombre {
+  font-weight: bold;
+  margin-top: 5%;
 }
-
-
 
 
 @media (min-width: 1096px){
@@ -24,30 +32,30 @@ div{
          border-radius: 100%;
          box-shadow: 3px 3px 3px grey;
          left: 2%;
-         top: 450px;
+         top: -14vmax;
     }
 }
 
-@media (min-width: 576px) and (max-width: 1095px) {
+@media (min-width: 618px) and (max-width: 1095px) {
     #fotodeperfil{
         position: absolute;
          width: 18%; 
          border-radius: 100%;
          box-shadow: 3px 3px 3px grey;
          left: 2%;
-         top: 580px;
+         top: -14vmax;
     }
 }
 
-/*de 0 a 575 hace esto*/
-@media (max-width: 575px){
+/*de 0 a 618 hace esto*/
+@media (max-width: 617px){
     #fotodeperfil{
-        position:absolute;
-        
-         width: 180px; 
+        position:absolute;        
+         width: 30%; 
          border-radius: 100%;
          box-shadow: 3px 3px 3px grey;
-         left: 25%;
-         top: 420px;
+         left: 33%;
+         top: -164px;
        }
 }
+
