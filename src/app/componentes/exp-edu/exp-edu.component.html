@@ -1,0 +1,6 @@
+<div class="row">
+    <h2>Educacion</h2>
+    <app-educacion></app-educacion>
+    <h2>Experiencia Laboral</h2>
+    <app-experiencia *ngFor=" let workDataParent of workList" [workData]="workDataParent"></app-experiencia>
+</div>

@@ -1,12 +1,7 @@
-export class persona{
+export interface persona{
     id?: number;
-    nombre: String;
-    apellido: String;
-    img: String;
+    urlImage: String;
+    title: String;
+    description: String;
 
-    constructor(nombre: String, apellido:String, img: String){
-        this.nombre = nombre;
-        this.apellido = apellido;
-        this.img = img;
-    }
 }

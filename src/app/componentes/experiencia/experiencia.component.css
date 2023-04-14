@@ -1,21 +1,25 @@
 .row{
     padding: 20px;   
+    background-color:  azure;
+}   
 
-}
-
-div{
+#experienciaL {
+     
     background-color:  azure;
 }
 
-h1{
-    text-align: center
+h2{
+    text-align: center;
 }
 
-h2, h3{
-    display: inline;
-    
+img {
+    width: 200px;   height:200px;
 }
 
-ul{
-    margin-left: 50px;
+.text-work{
+    margin-left: 3rem;
+}
+
+.work-description{
+    font-size: 1.75rem;
 }
