@@ -15,6 +15,8 @@ import { ProyectosComponent } from './componentes/proyectos/proyectos.component'
 import { FooterComponent } from './componentes/footer/footer.component';
 import { HttpClientModule } from '@angular/common/http';
 import { ExpEduComponent } from './componentes/exp-edu/exp-edu.component';
+import { HttpClientInMemoryWebApiModule } from 'angular-in-memory-web-api';
+import { InMemoryDataService } from './services/in-memory-data.service'; 
 
 @NgModule({
   declarations: [
@@ -35,7 +37,10 @@ import { ExpEduComponent } from './componentes/exp-edu/exp-edu.component';
     AppRoutingModule,
     NgCircleProgressModule.forRoot({}),
     HttpClientModule,
+    HttpClientInMemoryWebApiModule.forRoot(
+      InMemoryDataService, { dataEncapsulation: false }),
   ],
+
   providers: [],
   bootstrap: [AppComponent]
 })
